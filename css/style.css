@@ -25,12 +25,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-content: center;
   justify-content: space-around;
   position: relative;
   overflow: hidden;
   box-shadow: 2px 2px 46px -4px rgba(0, 0, 0, 0.6);
   transition: all 0.2s ease-in-out;
   color: white;
+  font-size: 20px;
 }
 .card-a {
   background: #7f7fd5;
@@ -44,17 +46,34 @@ body {
   background: #00b09b;
   background: linear-gradient(to right, #96c93d, #00b09b);
 }
-
+h2 {
+  font-weight: bold;
+  text-shadow: 3px 5px 5px #333745;
+}
 .precio {
-  font-size: 60px;
+  font-size: 6rem;
+  font-weight: bold;
+  margin: 0;
+  text-shadow: 3px 5px 3px #333745;
 }
 .btn-subs {
   cursor: pointer;
   width: 150px;
-  height: 40px;
+  height: 50px;
   background-color: white;
+  font-weight: bold;
   position: absolute;
   bottom: 0;
   right: 0;
   border-top-left-radius: 15px;
+}
+.plan {
+  font-weight: bold;
+  text-shadow: 3px 5px 5px #333745;
+}
+.list {
+  font-weight: bold;
+  list-style: none;
+  text-shadow: 3px 5px 5px #333745;
+  margin-bottom: 25px;
 }
