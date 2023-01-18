@@ -8,7 +8,6 @@ body {
   justify-content: center;
 }
 .container {
-  border: 1px solid red;
   width: 90rem;
   height: 50rem;
   display: flex;
@@ -16,6 +15,7 @@ body {
   justify-content: space-around;
   align-items: center;
   background-color: #333745;
+  border-radius: 10px;
 }
 .card {
   width: 290px;
@@ -37,6 +37,7 @@ body {
 .card:hover {
   transform: scale(1.2);
   transition: linear 350ms;
+  cursor: pointer;
 }
 .card-a {
   background: #7f7fd5;
