@@ -34,6 +34,10 @@ body {
   color: white;
   font-size: 20px;
 }
+.card:hover {
+  transform: scale(1.2);
+  transition: linear 350ms;
+}
 .card-a {
   background: #7f7fd5;
   background: linear-gradient(to left, #91eae4, #86a8e7, #7f7fd5);
@@ -59,7 +63,7 @@ h2 {
 .btn-subs {
   cursor: pointer;
   width: 150px;
-  height: 50px;
+  height: 60px;
   background-color: white;
   font-weight: bold;
   position: absolute;
@@ -67,13 +71,20 @@ h2 {
   right: 0;
   border-top-left-radius: 15px;
 }
+.btn-subs:hover {
+  transform: scale(1.1);
+  width: 100%;
+  transition: linear 300ms;
+  font-size: 20px;
+}
 .plan {
   font-weight: bold;
   text-shadow: 3px 5px 5px #333745;
+  font-size: 25px;
 }
 .list {
   font-weight: bold;
   list-style: none;
   text-shadow: 3px 5px 5px #333745;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
 }
